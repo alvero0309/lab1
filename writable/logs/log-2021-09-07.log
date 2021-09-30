@@ -1,0 +1,16 @@
+ERROR - 2021-09-07 09:39:08 --> Duplicate entry 'ortiz_escobar@' for key 'email_UNIQUE'
+CRITICAL - 2021-09-07 09:39:08 --> Duplicate entry 'ortiz_escobar@' for key 'email_UNIQUE'
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\v1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\v1\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\laragon\www\v1\app\Controllers\Auth\login.php(40): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#10 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#11 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

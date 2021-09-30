@@ -1,0 +1,120 @@
+CRITICAL - 2021-08-27 00:00:27 --> Object of class App\Controllers\Auth\login could not be converted to string
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 00:01:03 --> Object of class App\Controllers\Auth\login could not be converted to string
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 00:01:29 --> Object of class App\Controllers\Auth\login could not be converted to string
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 00:01:30 --> Object of class App\Controllers\Auth\login could not be converted to string
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-27 00:01:32 --> Object of class App\Controllers\Auth\login could not be converted to string
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-08-27 00:19:22 --> Duplicate entry 'alejadro_fve@ggmail.com' for key 'email_UNIQUE'
+CRITICAL - 2021-08-27 00:19:22 --> Duplicate entry 'alejadro_fve@ggmail.com' for key 'email_UNIQUE'
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\v1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\v1\app\Controllers\Auth\login.php(33): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#9 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#10 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-08-27 00:21:47 --> Duplicate entry 'kRomo4' for key 'username_UNIQUE'
+CRITICAL - 2021-08-27 00:21:47 --> Duplicate entry 'kRomo4' for key 'username_UNIQUE'
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\v1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\v1\app\Controllers\Auth\login.php(33): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#9 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#10 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-08-27 00:21:54 --> Duplicate entry 'alejado_fve' for key 'email_UNIQUE'
+CRITICAL - 2021-08-27 00:21:54 --> Duplicate entry 'alejado_fve' for key 'email_UNIQUE'
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\v1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\v1\app\Controllers\Auth\login.php(33): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#9 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#10 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-08-27 13:24:29 --> Duplicate entry 'kRomo4' for key 'username_UNIQUE'
+CRITICAL - 2021-08-27 13:24:29 --> Duplicate entry 'kRomo4' for key 'username_UNIQUE'
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\v1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\v1\app\Controllers\Auth\login.php(33): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#9 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#10 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-08-27 13:24:37 --> Duplicate entry 'alejado_fve' for key 'email_UNIQUE'
+CRITICAL - 2021-08-27 13:24:37 --> Duplicate entry 'alejado_fve' for key 'email_UNIQUE'
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\v1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\v1\app\Controllers\Auth\login.php(33): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#9 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#10 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2021-08-27 13:24:39 --> Duplicate entry 'alejado_fve' for key 'email_UNIQUE'
+CRITICAL - 2021-08-27 13:24:39 --> Duplicate entry 'alejado_fve' for key 'email_UNIQUE'
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\v1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\v1\app\Controllers\Auth\login.php(33): CodeIgniter\Model->insert(Object(App\Entities\User))
+#8 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Auth\login->index()
+#9 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\login))
+#10 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

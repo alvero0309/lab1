@@ -1,0 +1,9 @@
+CRITICAL - 2021-09-20 00:26:19 --> Invalid file: fullcalendar.php
+#0 C:\laragon\www\v1\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fullcalendar.ph...')
+#1 C:\laragon\www\v1\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('fullcalendar.ph...', Array, true)
+#2 C:\laragon\www\v1\app\Controllers\dashboard\apart.php(21): view('fullcalendar.ph...')
+#3 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\dashboard\apart->index()
+#4 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\dashboard\apart))
+#5 C:\laragon\www\v1\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\v1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
